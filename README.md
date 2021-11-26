@@ -66,4 +66,4 @@ mv build/ffmpeg*/ffmpeg build/ffmpeg*/ffprobe build/bin
 
 zip -r ffmpeg.zip bin/
 
-now create layer and uplaod zip in it.
+now create layer and upload zip in it.
