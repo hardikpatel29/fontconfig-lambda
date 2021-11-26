@@ -14,9 +14,9 @@ cp -rv libfontconfig.so* /mnt/
 
 after this you will get .so file related to libfontconfig
 
-make lib folder and copy all so file in it.
+make lib folder and copy all so file in it. ( you can put this lib folder with your nodejs package folder and create fonts.conf file)
 
-make zip file of lib folder 
+make zip file of lib folder ( you can create lambda layer and upload zip in it)
 
-### command to create lambda layer
+
 
