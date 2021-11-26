@@ -37,4 +37,4 @@ In this case
 
 If you are creating lambda layer than make zip file of fonts folder first and upload it to layer.
 
-#### lambda envrionment variable path setup is /opt/fontb
+#### lambda envrionment variable path setup is /opt/fonts
