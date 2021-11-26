@@ -49,3 +49,18 @@ If you are creating lambda layer than make zip file of fonts folder first and up
 if its lambda layer
 
 :fontsdir=/opt/fonts
+
+## STEP for ffmpeg layer 
+
+NOTE: commands are executed on linux OS
+
+mkdir build
+cd build
+
+curl https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar -Jx
+mkdir bin
+mv build/ffmpeg*/ffmpeg build/ffmpeg*/ffprobe build/bin
+
+zip -r ffmpeg.zip bin/
+
+now create layer and uplaod zip in it.
