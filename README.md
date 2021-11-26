@@ -38,3 +38,14 @@ In this case
 If you are creating lambda layer than make zip file of fonts folder first and upload it to layer.
 
 #### lambda envrionment variable path setup is /opt/fonts
+
+
+## NOW we are able to use fonts in lambda 
+
+### if we are using with ffmpeg , in this case we have to set manual path in ffmpeg 
+
+:fontsdir=/var/task/fonts
+
+if its lambda layer
+
+:fontsdir=/opt/fonts
