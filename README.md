@@ -24,4 +24,17 @@ make zip file of lib folder ( you can create lambda layer and upload zip in it)
 #### lambda envrionment variable path setup is /opt/lib
 
 
+#### setup font directory
 
+create font directory name like fonts.
+put all fonts file in it and also create one filename fonts.conf inside of fonts folder. (NOTE : fonts.conf file is attached in repo)
+
+Now you can use this fonts folder with your code by putting in main root folder. 
+
+In this case 
+
+#### lambda envrionment variable path setup is /var/task/fonts
+
+If you are creating lambda layer than make zip file of fonts folder first and upload it to layer.
+
+#### lambda envrionment variable path setup is /opt/fontb
