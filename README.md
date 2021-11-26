@@ -1,5 +1,7 @@
 # fontconfig-lambda
 
+## STEPS
+
 build docker image with name fontconfig:latest
 
 Run Docker & mount folder
@@ -15,3 +17,6 @@ after this you will get .so file related to libfontconfig
 make lib folder and copy all so file in it.
 
 make zip file of lib folder 
+
+### command to create lambda layer
+
