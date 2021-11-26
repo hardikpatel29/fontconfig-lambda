@@ -55,6 +55,7 @@ if its lambda layer
 NOTE: commands are executed on linux OS
 
 mkdir build
+
 cd build
 
 curl https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar -Jx
