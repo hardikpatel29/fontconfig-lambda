@@ -14,7 +14,7 @@ cp -rv libfontconfig.so* /mnt/
 
 after this you will get .so file related to libfontconfig
 
-make lib folder and copy all so file in it. ( you can put this lib folder with your nodejs package folder and create fonts.conf file)
+make lib folder and copy all so file in it. ( you can put this lib folder with your nodejs package folder)
 
 #### lambda envrionment variable path setup is /var/task/lib
 
